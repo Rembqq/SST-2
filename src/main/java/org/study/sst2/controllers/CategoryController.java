@@ -34,5 +34,4 @@ public class CategoryController {
         }
         return ResponseEntity.notFound().build();
     }
-
 }
