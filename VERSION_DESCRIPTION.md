@@ -1,1 +1,1 @@
-This version of REST API is a complete structure for using H2 Database 
+This version of REST API doesn't use any database 
