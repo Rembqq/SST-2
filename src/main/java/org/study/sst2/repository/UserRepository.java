@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicLong;
 public class UserRepository {
     private final Map<Long, User> users = new HashMap<>();
     //private Long idCounter = 1L;
-    private final AtomicLong idCounter = new AtomicLong(1);
+    private final AtomicLong idCounter = new AtomicLong(0);
 
     public List<User> findAll() {
         return new ArrayList<>(users.values());

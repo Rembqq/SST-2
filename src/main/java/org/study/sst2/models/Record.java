@@ -11,7 +11,7 @@ public class Record {
     private Long userId;
     private Long categoryId;
 //    private User user;
-    private Category category;
+//    private Category category;
 
     private LocalDateTime creationDateTime;
     private BigDecimal amount;
