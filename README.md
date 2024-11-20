@@ -5,7 +5,7 @@
 **Build:**
 `docker build . -t <image_name>:latest`
 
-**Run:**
+**Run (no docker compose):**<br>
 `docker run -it --rm --network=host -e PORT=<your_port>
 <image_name>:latest` <br> OR
 <br>
@@ -13,6 +13,12 @@
 <br></br>
 **Windows enjoyers should use:**
 `docker run -it --rm -p <external_port>:<inner_port> <image_name>:latest`
+
+**Run (with docker compose):**
+> docker-compose build
+
+> docker-compose up
+
 
 <br>**Additional docker commands:**
 ```
